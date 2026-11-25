@@ -1,28 +1,30 @@
-# مولد رمز QR
+# QR Code Generator | مولد رمز QR
 
-نص، رابط، أو شبكة واي فاي — رمز QR فوري قابل للتنزيل
+Turn any text, link, phone number or WiFi credentials into a QR code and download it as PNG or SVG. Arabic interface.
 
-**رابط الأداة (تعمل فورًا من المتصفح):** https://abood-ayman.github.io/qr-generator-ar/
+**Live app:** https://abood-ayman.github.io/qr-generator-ar/
 
-## ما الذي تقدمه؟
+![QR Code Generator, mobile view](docs/screenshot.svg)
 
-- QR لأي نص أو رابط أو رقم هاتف
-- نمط جاهز لشبكات الواي فاي (الاسم وكلمة السر) لمشاركتها مع الضيوف
-- تنزيل الرمز كصورة PNG بجودة عالية
-- التوليد يتم في متصفحك فقط، فبياناتك (وكلمات السر) لا تغادر جهازك
+This is a personal project, built with AI tools.
 
-## الخصوصية
+## Features
+- QR for any text, link or phone number
+- Ready-made WiFi pattern (name and password) to share with guests
+- Download the code as a high-quality PNG
+- Generation happens only in your browser, so your data (and passwords) never leave your device
 
-تعمل الأداة بالكامل داخل متصفحك (HTML/CSS/JavaScript فقط). لا يوجد خادم، ولا حسابات، ولا تتبّع، ولا تُرسل أو تُحفظ أي بيانات تدخلها خارج جهازك.
+## Note
+Uses the open-source qrcode-generator library (MIT), inlined in the page.
 
-## التقنية
+## Privacy
+Everything runs in your browser. No data is stored or sent anywhere.
 
-صفحة ثابتة واحدة بلا أي مكتبات خارجية ما عدا مكتبة توليد QR مفتوحة المصدر (qrcode-generator، رخصة MIT، مضمّنة داخل الصفحة)، تعمل على الهاتف والحاسوب، وتُستضاف مجانًا عبر GitHub Pages.
+## Run locally
+Open `index.html` in any browser. It is a single static page with no dependencies.
 
-## ملاحظة شفافية
+## Status
+Stable.
 
-بُنيت هذه الأداة بمساعدة أدوات ذكاء اصطناعي، ورُوعيَت بساطتها وفائدتها المباشرة.
-
-## الرخصة
-
-MIT — انظر ملف LICENSE.
+## Copyright
+MIT License - Copyright (c) 2026 Abdullah Ayman.
